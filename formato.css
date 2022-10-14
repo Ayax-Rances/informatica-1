@@ -1,0 +1,156 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0;
+}
+#indice{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(135deg, rgb(255, 255, 236), rgb(211, 181, 181));
+    font-size: 22px;
+}
+header{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+    height: 35px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 164, 27);
+    
+}
+.logo{
+    background-color:rgb(255, 164, 27);
+    font-size: 10px;
+    margin: 0;
+    color:aliceblue;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    align-items: left ;
+    padding-left:30px;
+}
+.inicio{
+    margin: 0;
+    background-color: rgb(255, 164, 27);
+    font-size: 15px;
+    color:aliceblue;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    align-items: right ;
+    padding-right: 30px;
+}
+.titulo1{
+    margin: 0;
+    padding: 0;
+    text-align: center ;
+    background-color: rgb(255, 210, 50);
+    border-color: black;
+    border-style: dotted;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#QUEES{
+    margin: 0;
+    justify-content: center center; 
+    align-items: center center;
+    display:block;
+    padding: 0;
+    width: 100%;
+}
+#QUEES .quees{
+    
+    margin-left: 5%;
+    padding: 5px 0;
+    width: 90%;
+    display: inline-flex;
+    text-align: justify;
+    align-items: center center center;
+    justify-content: center center center;
+}
+.imagenlitio{
+    padding-top: 0%;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+
+#usos{
+    width: 100%;
+}
+.usos1{
+    margin-left: 5%;
+    padding: 0;
+    width: 90%;
+    display: inline-flex;
+    text-align: justify;
+    align-items: center center center;
+    justify-content: center center center;
+
+
+}
+/*.imagenusos{
+    padding-top: 3%;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 15px;
+    float:right;
+}*/
+#usos .textousos{
+    width: 50%;
+    text-align: justify;
+    float:right;
+}
+#tabla{
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    width: 90%;
+    height: auto;
+    border: 2px solid;
+}
+table{
+    width: 100%;;
+    border-collapse: collapse;
+}
+table th{
+    background-color: rgb(255, 164, 27);
+    width: 100px;
+    
+}
+table td{
+    background-color: rgb(202, 202, 188);
+    border: 1px solid;
+}
+table th, td{
+    border: 0px solid;
+}
+/*@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+}*/
+.textarg{
+    text-align: justify;
+}
+.LITARG{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+.imgubicacion{
+    width: 300px;
+    height: auto;
+}
